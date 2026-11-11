@@ -4,6 +4,23 @@ A native macOS window around the DeepSeek Harness Web UI. It is a thin,
 self-contained shell — the UI, agent, tools and sessions are the same ones the
 `dsh web` browser app uses.
 
+## Why this exists
+
+The official **DeepSeek Harness Desktop** is Apple silicon only — its macOS
+guide says *"Intel Macs are not supported; Rosetta cannot run an arm64 build."*
+This wrapper runs the same official Harness UI natively on Intel Macs (x86_64)
+and on Apple silicon (arm64).
+
+| System | This app | Official desktop app |
+| --- | --- | --- |
+| Intel Mac (x86_64) | ✅ native `x64` build | ❌ not supported (arm64 only) |
+| Apple silicon (M1–M4) | ✅ native `arm64` build | ✅ unsigned preview |
+| macOS 13 Ventura – 15 Sequoia | ✅ | ✅ (13+) |
+| macOS 12 Monterey or older | ❌ (Electron 45 floor) | ❌ |
+
+Tested on macOS 15.8.2, Intel `x86_64`, Node v25.1.0, dsh 0.2.2-rc.1,
+Electron 45.3.0.
+
 ## What it does on launch
 
 1. Finds a local `dsh` install (newest `@deepseek-ai/dsh` in the npx cache,
