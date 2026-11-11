@@ -65,8 +65,8 @@ Intel Macs need the x64 build.
 ### Checksums
 
 ```
-SHA256 (DeepSeek-Harness-0.1.0-macOS-arm64.dmg) = c25ce44a1cced63e4ce5f4e77a06db75d42d6e21ffc9008f7f2ed4ff13cab5e4
-SHA256 (DeepSeek-Harness-0.1.0-macOS-x64.dmg)   = cc87446a10ae093c552c333ff431e050e4a7fce9db12a8aa62345d0623ecb6ad
+SHA256 (DeepSeek-Harness-0.1.0-macOS-arm64.dmg) = 799e6b2fe6d4c8d7a9253d4bb0b97b1db08ed0ddc5c3c2c4cc4c6fcce58b29cb
+SHA256 (DeepSeek-Harness-0.1.0-macOS-x64.dmg)   = 83fb0e28fed00067b23ed4e1596da784f53c8bd2f2c3646c9bb6cc494fdfdb2a
 ```
 
 Built with Electron 45.3.0 on macOS 15.8.2.
