@@ -1,0 +1,17 @@
+{
+  "name": "deepseek-harness-desktop",
+  "productName": "DeepSeek Harness",
+  "version": "0.1.0",
+  "description": "Desktop shell for the DeepSeek Harness web UI",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "selftest": "electron . --selftest",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.3.0"
+  }
+}
